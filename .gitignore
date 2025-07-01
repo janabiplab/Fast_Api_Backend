@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python egg metadata and distributions
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Logs and caches
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Environment variables
+.env
+.env.*
+
+# History file (user-specific prompt history)
+history.json
+
+
+
+users.json
