@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["REPLICATE_API_TOKEN"] = os.getenv("REPLICATE_API_TOKEN")
+client = replicate.Client(api_token=os.getenv("REPLICATE_API_TOKEN"))
 
 
 def ask_replicate(prompt: str) -> str:
@@ -17,7 +17,7 @@ def ask_replicate(prompt: str) -> str:
         
         # Sends the input prompt to the LLaMA 4 Maverick model.
         # get the response in chunks (events)
-        output = replicate.stream(
+        output = client.stream(
             "meta/llama-4-maverick-instruct",
             input={
                 "prompt": prompt,
