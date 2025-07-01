@@ -1,6 +1,7 @@
 # Fast_Api_Backend
-<img src="C:\Users\BIPLAB\Downloads\image.png"/>
-[image](https://github.com/user-attachments/assets/4698700e-7ea1-4f75-86f3-e7addfc4439b)
+
+![image](https://github.com/user-attachments/assets/15be58e4-0ef8-44fb-8df6-886d18de1889)
+
 
 
 ### sign up of a user
