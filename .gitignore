@@ -38,9 +38,3 @@ ENV/
 .env
 .env.*
 
-# History file (user-specific prompt history)
-history.json
-
-
-
-users.json
