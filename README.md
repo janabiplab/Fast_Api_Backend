@@ -54,7 +54,7 @@
  ### all user prompts history
  -get history of authenticated user
  <pre>
-    POST https://fast-api-backend-1-qvp0.onrender.com/history
+    GET https://fast-api-backend-1-qvp0.onrender.com/history
  </pre>
  -result
  <pre>
